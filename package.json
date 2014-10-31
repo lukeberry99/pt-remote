@@ -1,0 +1,8 @@
+{
+  "name": "pt-remote",
+  "version": "1.0.0",
+  "description": "A Popcorn-Time Remote Control in NodeJS",
+  "main": "index.js",
+  "author": "Luke Berry <contact@luke-berry.co.uk>",
+  "license": "ISC"
+}
