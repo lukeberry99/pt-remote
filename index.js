@@ -7,4 +7,11 @@ var config = {
     user: 'popcorn',
     pass: 'popcorn'
 };
-var popcorn = new PopcornWrapper(config);
+var popcorn = new PopcornWrapper();
+popcorn.sendUp(function(err, cb) {
+    if(err) {
+        console.error(err);
+    } else {
+        console.log("test");
+    }
+});
